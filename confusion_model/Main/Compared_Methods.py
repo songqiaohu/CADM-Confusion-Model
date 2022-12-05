@@ -19,7 +19,7 @@ import pandas as pd
 train_size = 200
 chunk_size = 200
 label_ratio = 0.2
-classifier_selection = 'DWM'
+classifier_selection = 'DWM'  #classifier
 ############model selection ############
 def classifier_select(string = 'NB'):
     if string == 'NB':
