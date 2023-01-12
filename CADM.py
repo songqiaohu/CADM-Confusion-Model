@@ -227,7 +227,7 @@ def main():
     plt.xlabel('$chunk$')
     plt.ylabel('$accuracy\ of\ each\ chunk$')
     plt.title(
-        '$CMDR-{},\ overall accuracy\ =\ {}\%$'.format(classifier, round(right / prediction * 100, 3)))
+        '$CADM-{},\ overall accuracy\ =\ {}\%$'.format(classifier, round(right / prediction * 100, 3)))
 
     print('overall accuracy = {}%'.format(right / prediction * 100))
     plt.show()
